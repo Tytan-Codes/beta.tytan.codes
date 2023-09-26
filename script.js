@@ -20,8 +20,9 @@ $(document).ready(function(e) {
    var previouscommands = [];
    var currentcommand = 0;
    var pages = [ /*Can be populated with various methods*/
-      ["index", "[^https://beta.tytan.codes/home](My Home Page)"],
-      ["about", "i am Tytan, I am a young developer who has made some cool stuff!"]
+      ["index", "[^https://beta.tytan.codes](My Home Page)"],
+      ["about", "i am Tytan, I am a young developer who has made some cool stuff!", "I enjoy coding stuff."],
+      ["projects", "Here are my projects:", "*Better Day 5*, *SimpleVpn*, *chatGPT*", "*Better Day 5* is just a fun little script that has a nice ui that does some fun stuff. You can see it at [https://github.com/tytan-codes/better-day-5(github/BetterDay5)", "Ill add more later!"]
    ];
    var pageindex = ["index", "about",];
    var currentpage = "landing";

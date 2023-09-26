@@ -24,7 +24,7 @@ $(document).ready(function(e) {
       ["about", "i am Tytan, I am a young developer who has made some cool stuff!", "I enjoy coding stuff."],
       ["projects", "Here are my projects:", "*Better Day 5*, *SimpleVpn*, *chatGPT*", "*Better Day 5* is just a fun little script that has a nice ui that does some fun stuff. You can see it at [https://github.com/tytan-codes/better-day-5(github/BetterDay5)", "Ill add more later!"]
    ];
-   var pageindex = ["index", "about",];
+   var pageindex = ["index", "about", "projects"];
    var currentpage = "landing";
    var url = "http://beta.tytan.codes/"
       /*
